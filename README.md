@@ -6,7 +6,7 @@ Uses **Tesseract OCR** + **scikit-learn** (when training data exists) with a rul
 ## ✨ Features
 - 🧾 **OCR**: Extract text from PNG/JPG/TIFF/WebP with Tesseract.
 - 🔍 **Parsing**: Heuristics to find **date**, **amount**, **currency**, and **vendor**.
-- 🧠 **Categorization**:
+- **Categorization**:
   - ML model (**TF-IDF + MultinomialNB**) trained from your labeled data (rows with categories).
   - Falls back to keyword rules when no training data exists.
 - 💾 **Storage**: Local **SQLite** DB (`expenses.db` by default).
