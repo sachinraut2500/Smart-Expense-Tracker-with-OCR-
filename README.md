@@ -20,7 +20,7 @@ Uses **Tesseract OCR** + **scikit-learn** (when training data exists) with a rul
 - python-dateutil
 - pandas
 - SQLite (built-in)
---------------------
+--------------------------
 ## 📦 Install
 ```bash
 pip install pytesseract opencv-python scikit-learn python-dateutil pandas
