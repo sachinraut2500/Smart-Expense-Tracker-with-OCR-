@@ -12,7 +12,7 @@ Uses **Tesseract OCR** + **scikit-learn** (when training data exists) with a rul
 - 💾 **Storage**: Local **SQLite** DB (`expenses.db` by default).
 - 📊 **Reports**: Totals by category for a period (YYYY or YYYY-MM).
 - 📤 **Export**: Dump everything to CSV.
--------------------------
+----------------------------
 ## 🧰 Tech Stack
 - Python 3.9+
 - pytesseract, opencv-python
