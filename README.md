@@ -2,7 +2,7 @@
 
 Scan receipts, parse totals/dates/vendors, auto-categorize spending, and store everything in a local SQLite database.  
 Uses **Tesseract OCR** + **scikit-learn** (when training data exists) with a rule-based fallback.
---
+---
 ## ✨ Features
 - 🧾 **OCR**: Extract text from PNG/JPG/TIFF/WebP with Tesseract.
 - 🔍 **Parsing**: Heuristics to find **date**, **amount**, **currency**, and **vendor**.
