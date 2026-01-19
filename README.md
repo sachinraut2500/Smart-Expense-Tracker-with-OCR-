@@ -1,5 +1,5 @@
 # Smart Expense Tracker (with OCR)
-.
+.-
 Scan receipts, parse totals/dates/vendors, auto-categorize spending, and store everything in a local SQLite database.  
 Uses **Tesseract OCR** + **scikit-learn** (when training data exists) with a rule-based fallback.
 ---
